@@ -1,5 +1,5 @@
 /**
- * @securecheck/rules-engine
+ * @securecheckio/rules-engine
  * 
  * High-performance rules engine supporting:
  * - Keyword matching

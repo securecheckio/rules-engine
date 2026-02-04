@@ -1,4 +1,4 @@
-# @securecheck/rules-engine
+# @securecheckio/rules-engine
 
 High-performance rules engine supporting multiple rule types in a single unified engine.
 
@@ -14,13 +14,13 @@ High-performance rules engine supporting multiple rule types in a single unified
 ## Installation
 
 ```bash
-npm install @securecheck/rules-engine
+npm install @securecheckio/rules-engine
 ```
 
 ## Usage
 
 ```typescript
-import { RulesEngine, Rule } from '@securecheck/rules-engine';
+import { RulesEngine, Rule } from '@securecheckio/rules-engine';
 
 // Create engine
 const engine = new RulesEngine({
