@@ -1,0 +1,32 @@
+{
+  "name": "@securecheck/rules-engine",
+  "version": "1.0.0",
+  "description": "High-performance rules engine supporting keyword, regex, semantic, and stateful rules",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "rules-engine",
+    "ids",
+    "ips",
+    "threat-detection",
+    "security"
+  ],
+  "author": "SecureCheck",
+  "license": "MIT",
+  "dependencies": {
+    "@lancedb/lancedb": "^0.11.0",
+    "@xenova/transformers": "^2.17.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
