@@ -24,7 +24,7 @@ import type {
   EvaluationContext,
   EvaluationResult,
   FlagHistoryEntry
-} from './types';
+} from './types.js';
 
 // ============================================================================
 // IN-MEMORY STATE CACHE

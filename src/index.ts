@@ -9,12 +9,12 @@
  * - Threshold/rate limiting
  */
 
-export { RulesEngine } from './rules-engine';
+export { RulesEngine } from './rules-engine.js';
 export type {
   RulesEngineOptions,
   SemanticMatcher,
   StateProvider
-} from './rules-engine';
+} from './rules-engine.js';
 
 export type {
   Rule,
@@ -26,4 +26,4 @@ export type {
   FlagHistoryEntry,
   EvaluationContext,
   EvaluationResult
-} from './types';
+} from './types.js';
