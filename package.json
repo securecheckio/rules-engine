@@ -1,6 +1,6 @@
 {
   "name": "@securecheckio/rules-engine",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "High-performance rules engine supporting keyword, regex, semantic, and stateful rules",
   "type": "module",
   "main": "dist/index.js",
